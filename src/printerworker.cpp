@@ -373,8 +373,6 @@ void PrinterWorker::convertPdf(QString filename, Bytestream header, PrintParamet
                   emit progress(page, total);
                 });
 
-    bool verbose = QLoggingCategory::defaultCategory()->isDebugEnabled();
-
     int res = pdf_to_printable(filename.toStdString(), writeFun, Params, progressFun, verbose);
 
     if(res != 0)
