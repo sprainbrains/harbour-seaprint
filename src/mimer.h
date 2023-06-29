@@ -33,6 +33,8 @@ public:
     Q_PROPERTY(const QString ODT MEMBER ODT CONSTANT);
     Q_PROPERTY(const QString PPT MEMBER PPT CONSTANT);
     Q_PROPERTY(const QString PPTX MEMBER PPTX CONSTANT);
+    Q_PROPERTY(const QString XLS MEMBER XLS CONSTANT);
+    Q_PROPERTY(const QString XLSX MEMBER XLSX CONSTANT)
     Q_PROPERTY(const QString ODP MEMBER ODP CONSTANT);
 
 
@@ -61,6 +63,8 @@ public:
     static const QString ODT;
     static const QString PPT;
     static const QString PPTX;
+    static const QString XLS;
+    static const QString XLSX;
     static const QString ODP;
 
     static const QString Plaintext;

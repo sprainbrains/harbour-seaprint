@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
 
     app->setOrganizationName(QStringLiteral("net.attah"));
     app->setApplicationName(QStringLiteral("seaprint"));
-    app->setApplicationVersion(QStringLiteral(SEAPRINT_VERSION));
+    app->setApplicationVersion(QStringLiteral(/*SEAPRINT_VERSION*/"1.3"));
 
     qmlRegisterSingletonType<IppDiscovery>("seaprint.ippdiscovery", 1, 0, "IppDiscovery", singletontype_provider<IppDiscovery>);
     qmlRegisterSingletonType<Mimer>("seaprint.mimer", 1, 0, "Mimer", singletontype_provider<Mimer>);

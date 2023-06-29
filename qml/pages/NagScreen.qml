@@ -85,7 +85,7 @@ Page {
 
             text: qsTr("If you are still seeing this message despite installing Calligra, that can be because of SailJail "+
                        "in Sailfish OS 4.x before the compatibility permission in 4.4. " +
-                       "You can either upgrade to 4.4 or edit out the SailJail section in /usr/share/applications/harbour-seaprint.desktop")
+                       "You can either upgrade to 4.4 or edit out the SailJail section in /usr/share/applications/ru.attah.seaprint.desktop")
         }
 
         Item{

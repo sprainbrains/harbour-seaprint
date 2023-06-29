@@ -18,13 +18,13 @@ Page {
             MenuItem
             {
                 text: qsTr("GitHub repository")
-                onClicked: Qt.openUrlExternally("https://github.com/attah/harbour-seaprint")
+                onClicked: Qt.openUrlExternally("https://github.com/attah/ru.attah.seaprint")
             }
 
             MenuItem
             {
                 text: qsTr("Report an Issue")
-                onClicked: Qt.openUrlExternally("https://github.com/attah/harbour-seaprint/issues")
+                onClicked: Qt.openUrlExternally("https://github.com/attah/ru.attah.seaprint/issues")
             }
         }
 
@@ -42,11 +42,11 @@ Page {
                 height: Theme.paddingLarge
             }
 
-            SectionHeader { text: qsTr("About") + " SeaPrint" }
+            SectionHeader { text: qsTr("About") + qsTr(" SeaPrint") }
 
             Image {
                 anchors.horizontalCenter: parent.horizontalCenter
-                source: Qt.resolvedUrl("/usr/share/icons/hicolor/172x172/apps/harbour-seaprint.png")
+                source: Qt.resolvedUrl("/usr/share/icons/hicolor/172x172/apps/ru.attah.seaprint.png")
                 width: Theme.iconSizeExtraLarge
                 height: Theme.iconSizeExtraLarge
                 smooth: true
@@ -56,7 +56,7 @@ Page {
             AboutLabel {
                 font.pixelSize: Theme.fontSizeLarge
                 color: Theme.highlightColor
-                text: "SeaPrint v" + Qt.application.version
+                text: qsTr("SeaPrint v") + Qt.application.version
             }
 
             AboutLabel {
@@ -102,7 +102,8 @@ Page {
                       qsTr("French")+" - ensag-dev, pherjung, phklrz, Quentí\n"+
                       qsTr("German")+" -  black-sheep-dev, cnlpete, wheelseal\n"+
                       qsTr("Polish")+" - atlochowski, karolkurek\n"+
-                      qsTr("Spanish")+" - carmenfdezb, JSEHV"
+                      qsTr("Spanish")+" - carmenfdezb, JSEHV\n" +
+                      qsTr("Russian")+" - sprainbrains"
             }
 
             SectionHeader { text: qsTr("Optional dependencies") }
@@ -135,7 +136,7 @@ Page {
             Button {
                 text: "GitHub"
                 anchors.horizontalCenter: parent.horizontalCenter
-                onClicked: Qt.openUrlExternally("https://github.com/attah/harbour-seaprint")
+                onClicked: Qt.openUrlExternally("https://github.com/attah/ru.attah.seaprint")
             }
 
             AboutLabel {

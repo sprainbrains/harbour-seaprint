@@ -1,7 +1,7 @@
 # SeaPrint
 Network printing for Sailfish OS
 
-![SeaPrint icon](icons/172x172/harbour-seaprint.png)
+![SeaPrint icon](icons/172x172/ru.attah.seaprint.png)
 
 Print PDFs and images over IPP (Internet Printing Protocol).
 

@@ -49,7 +49,7 @@ Page {
 
             header: PageHeader {
                 id: pageHeader
-                title: Utils.unknownForEmptyString(printer.attrs["printer-name"].value)
+                title: Utils.unknownForEmptyString(printer.attrs["printer-name"].value,printer.attrs["printer-info"].value)
                 description: printer.jobs.length==1 ?  printer.jobs.length+" "+qsTr("job") : printer.jobs.length+" "+qsTr("jobs")
             }
 

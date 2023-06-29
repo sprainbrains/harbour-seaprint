@@ -166,7 +166,7 @@ ApplicationWindow
     ConfigurationValue
     {
         id: nagScreenSetting
-        key: "/apps/harbour-seaprint/settings/nag-screen"
+        key: "/apps/ru.attah.seaprint/settings/nag-screen"
         defaultValue: 0
         property int expectedValue: expectCalligra ? 2 : 1
     }
@@ -174,7 +174,7 @@ ApplicationWindow
     ConfigurationValue
     {
         id: considerAdditionalFormatsSetting
-        key: "/apps/harbour-seaprint/settings/consider-additional-formats"
+        key: "/apps/ru.attah.seaprint/settings/consider-additional-formats"
         defaultValue: true
     }
 

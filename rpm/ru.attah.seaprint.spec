@@ -1,8 +1,8 @@
-Name:       harbour-seaprint
+Name:       ru.attah.seaprint
 
 Summary:    SeaPrint
-Version:    0
-Release:    1
+Version:    1.3
+Release:    3
 Group:      Qt/Qt
 License:    GPLv3
 URL:        https://github.com/attah/harbour-seaprint
@@ -29,7 +29,7 @@ BuildRequires:  pkgconfig(libjpeg)
 %define _binary_payload w6T.xzdio
 
 %description
-Network printing for Sailfish OS
+Network printing for Sailfish OS and Aurora OS
 
 %prep
 %setup -q -n %{name}-%{version}

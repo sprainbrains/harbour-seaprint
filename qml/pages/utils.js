@@ -537,14 +537,22 @@ function isWaringState(printer)
 
 function unknownForEmptyString(s)
 {
-    if(s === "")
+    for(var i = 0; i < arguments.length; i++)
     {
-        return qsTr("Unknown");
+        if(arguments[i] !== "")
+        {
+            return arguments[i];
+        }
     }
-    else
+    return qsTr("Unknown");
+}
+function existsOrEmpty(attrName, printer) {
+    if(printer.attrs.hasOwnProperty(attrName))
     {
-        return s;
+        return printer.attrs[attrName].value;
     }
+    return "";
+
 }
 
 function existsAndNotEmpty(attrName, printer)

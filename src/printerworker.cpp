@@ -373,6 +373,8 @@ void PrinterWorker::convertPdf(QString filename, Bytestream header, PrintParamet
                   emit progress(page, total);
                 });
 
+    bool verbose = QLoggingCategory::defaultCategory()->isDebugEnabled();
+
     int res = pdf_to_printable(filename.toStdString(), writeFun, Params, progressFun, verbose);
 
     if(res != 0)
@@ -568,14 +570,33 @@ void PrinterWorker::convertOfficeDocument(QString filename, Bytestream header, P
     }
 
     QProcess CalligraConverter(this);
-    CalligraConverter.setProgram("calligraconverter");
-    QStringList CalligraConverterArgs = {"--batch", "--mimetype", Mimer::PDF, "--print-orientation", "Portrait", "--print-papersize", ShortPaperSize};
+    CalligraConverter.setProgram("/usr/lib/libreoffice/program/soffice.bin");
+    QStringList CalligraConverterArgs = {"--headless", "--convert-to"};
 
-    CalligraConverterArgs << filename;
+    QString filenameLast = filename.split("/").last().split(".").first();
+    QString fileExtension = filename.split("/").last().split(".").last();
+
+
+    if (fileExtension.contains("doc"))
+        CalligraConverterArgs << "pdf:writer_pdf_Export";
+    else if (fileExtension.contains("xls"))
+        CalligraConverterArgs << "pdf:calc_pdf_Export";
+    else if (fileExtension.contains("ppt"))
+        CalligraConverterArgs << "pdf:impress_pdf_Export";
+    else {
+        CalligraConverterArgs << "pdf";
+    }
+
+    CalligraConverterArgs << "--outdir";
+
+
 
     QTemporaryFile tmpPdfFile;
     tmpPdfFile.open();
-    CalligraConverterArgs << tmpPdfFile.fileName();
+    QString saveTmpDirPath = tmpPdfFile.fileName().section("/",0,-2);
+
+    CalligraConverterArgs << saveTmpDirPath;
+    CalligraConverterArgs << filename;
 
     qDebug() << "CalligraConverteArgs is" << CalligraConverterArgs;
     CalligraConverter.setArguments(CalligraConverterArgs);
@@ -600,9 +621,18 @@ void PrinterWorker::convertOfficeDocument(QString filename, Bytestream header, P
 
 //    qDebug() << CalligraConverter->readAllStandardError();
 
-    convertPdf(tmpPdfFile.fileName(), header, Params);
+    QFile pdfFile(saveTmpDirPath + "/" + filenameLast + ".pdf");
+    if(!pdfFile.open(QIODevice::ReadOnly))
+    {
+        throw ConvertFailedException(tr("Failed to open file"));
+    }
+
+    convertPdf(pdfFile.fileName(), header, Params);
+    pdfFile.close();
+    pdfFile.remove();
 
     qDebug() << "posted";
+
 }
 
 void PrinterWorker::convertPlaintext(QString filename, Bytestream header, PrintParameters Params)

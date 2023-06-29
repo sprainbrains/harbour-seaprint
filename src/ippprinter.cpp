@@ -531,7 +531,7 @@ void IppPrinter::adjustRasterSettings(QString filename, QString mimeType, QJsonO
         Params.copies = copies_requested;
         if(copyMode == "separate-documents-uncollated-copies")
         { // Only do silly copies if explicitly requested
-            Params.collatedCopies = false;
+          Params.collatedCopies = false;
         }
         jobAttrs.remove("copies");
 

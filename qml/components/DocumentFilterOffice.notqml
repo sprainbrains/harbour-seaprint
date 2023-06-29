@@ -84,6 +84,16 @@ GalleryFilterUnion {
 
     GalleryEndsWithFilter {
         property: "fileName"
+        value: ".xls"
+    }
+
+    GalleryEndsWithFilter {
+        property: "fileName"
+        value: ".xlsx"
+    }
+
+    GalleryEndsWithFilter {
+        property: "fileName"
         value: ".odp"
     }
 
@@ -95,6 +105,16 @@ GalleryFilterUnion {
     GalleryEndsWithFilter {
         property: "fileName"
         value: ".PPTX"
+    }
+
+    GalleryEndsWithFilter {
+        property: "fileName"
+        value: ".XLS"
+    }
+
+    GalleryEndsWithFilter {
+        property: "fileName"
+        value: ".XLSX"
     }
 
     GalleryEndsWithFilter {

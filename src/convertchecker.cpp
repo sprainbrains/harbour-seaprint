@@ -10,7 +10,7 @@ ConvertChecker::ConvertChecker() : libpoppler("libpoppler-glib.so.8")
     _calligra = false;
 
     QProcess calligraconverter(this);
-    calligraconverter.setProgram("calligraconverter");
+    calligraconverter.setProgram("/usr/lib/libreoffice/program/soffice.bin");
     calligraconverter.setArguments({"-h"});
     calligraconverter.start();
 

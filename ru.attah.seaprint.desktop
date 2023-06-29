@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Icon=ru.attah.seaprint
+X-Nemo-Application-Type=silica-qt5
+Exec=/usr/bin/ru.attah.seaprint
+X-DBusActivatable=true
+Name=SeaPrint
+Name[ru]=Wi-Fi Печать
+
+[X-Application]
+Permissions=Internet;Pictures;Documents;Downloads;RemovableMedia;MediaIndexing;
+OrganizationName=ru.attah
+ApplicationName=seaprint
+ExecDBus=/usr/bin/ru.attah.seaprint --prestart

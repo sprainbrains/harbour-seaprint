@@ -1,209 +1,221 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="nl">
+<TS version="2.1" language="zh_CN">
 <context>
     <name>AboutPage</name>
     <message>
         <source>GitHub repository</source>
-        <translation>GitHub-opslagplaats</translation>
+        <translation>Github 仓库</translation>
     </message>
     <message>
         <source>Report an Issue</source>
-        <translation>Meld een probleem</translation>
+        <translation>报告问题</translation>
     </message>
     <message>
         <source>About</source>
-        <translation>Over</translation>
+        <translation>关于</translation>
     </message>
     <message>
         <source>Network printing for Sailfish OS.</source>
-        <translation>Netwerk printen voor Sailfish OS.</translation>
+        <translation>旗鱼系统网络打印软件。</translation>
     </message>
     <message>
         <source>Icons</source>
-        <translation>Iconen</translation>
+        <translation>图标</translation>
     </message>
     <message>
         <source>Icon made by Gregguh.</source>
-        <translation>Icoon gemaakt door Gregguh.</translation>
+        <translation>图标绘制者为 Gregguh 。</translation>
     </message>
     <message>
         <source>General contributions</source>
-        <translation>Algemene bijdragen</translation>
+        <translation>常规贡献</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation>Vertalingen</translation>
+        <translation>翻译</translation>
     </message>
     <message>
         <source>Chinese</source>
-        <translation>Chinees</translation>
-    </message>
-    <message>
-        <source>Licensing</source>
-        <translation>Licenties</translation>
-    </message>
-    <message>
-        <source>Source code is available at GitHub. Translations, bug reports and other contributions are welcome!</source>
-        <translation>De broncode is beschikbaar op GitHub. Vertalingen, bugrapporten en andere bijdragen zijn welkom!</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <translation>Frans</translation>
-    </message>
-    <message>
-        <source>Spanish</source>
-        <translation>Spaans</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation>Pools</translation>
-    </message>
-    <message>
-        <source>Optional dependencies</source>
-        <translation>Optionele afhankelijkheden</translation>
-    </message>
-    <message>
-        <source>Installed</source>
-        <translation>Geïnstalleerd</translation>
-    </message>
-    <message>
-        <source>Not installed</source>
-        <translation>Niet geïnstalleerd</translation>
-    </message>
-    <message>
-        <source>Donations</source>
-        <translation>Donaties</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation>Duits</translation>
+        <translation>汉语</translation>
     </message>
     <message>
         <source>Dutch</source>
-        <translation>Nederlands</translation>
+        <translation>尼德兰语</translation>
+    </message>
+    <message>
+        <source>French</source>
+        <translation>法语</translation>
+    </message>
+    <message>
+        <source>German</source>
+        <translation>德语</translation>
+    </message>
+    <message>
+        <source>Polish</source>
+        <translation>波兰语</translation>
+    </message>
+    <message>
+        <source>Spanish</source>
+        <translation>西班牙语</translation>
+    </message>
+    <message>
+        <source>Optional dependencies</source>
+        <translation>可选依赖</translation>
+    </message>
+    <message>
+        <source>Installed</source>
+        <translation>已安装</translation>
+    </message>
+    <message>
+        <source>Not installed</source>
+        <translation>未安装</translation>
+    </message>
+    <message>
+        <source>Donations</source>
+        <translation>捐赠</translation>
+    </message>
+    <message>
+        <source>Licensing</source>
+        <translation>许可证</translation>
+    </message>
+    <message>
+        <source>Source code is available at GitHub. Translations, bug reports and other contributions are welcome!</source>
+        <translation>源代码位于 Github 。欢迎翻译、报告缺陷及作出其它贡献！</translation>
     </message>
     <message>
         <source>Special thanks to</source>
-        <translation>Speciale dank aan</translation>
+        <translation>特别感谢</translation>
     </message>
     <message>
         <source>SeaPrint is free software released under the GNU General Public License (GPL), version 3 or later.</source>
-        <translation>SeaPrint is vrije software die is uitgebracht onder de GNU General Public License (GPL), versie 3 of hoger.</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> SeaPrint</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SeaPrint v</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Russian</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>AddPrinterDialog</name>
     <message>
         <source>Add printer</source>
-        <translation>Voeg printer toe</translation>
-    </message>
-    <message>
-        <source>Found:</source>
-        <translation>Gevonden:</translation>
-    </message>
-    <message>
-        <source>No printer found</source>
-        <translation>Geen printer gevonden</translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation>Onbekend</translation>
+        <translation>添加打印机</translation>
     </message>
     <message>
         <source>On WiFi:</source>
-        <translation>Via Wifi:</translation>
+        <translation>WiFi连接的:</translation>
+    </message>
+    <message>
+        <source>Found:</source>
+        <translation>找到:</translation>
+    </message>
+    <message>
+        <source>No printer found</source>
+        <translation>没有找到打印机</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>未知</translation>
     </message>
     <message>
         <source>Port 9100 is not used for IPP.</source>
-        <translation>Poort 9100 wordt niet gebruikt voor IPP.</translation>
+        <translation>端口9100未用于IPP。</translation>
     </message>
     <message>
         <source>The uri suffix is not in the printer&apos;s supported list.</source>
-        <translation>Het uri-achtervoegsel staat niet in de door deze printer ondersteunde lijst.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>It might not accept print jobs on this address.</source>
-        <translation>Het accepteert mogelijk geen afdruktaken op dit adres.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Consider using a suffix like &quot;/ipp/print&quot;.</source>
-        <translation>Overweeg het gebruik van een achtervoegsel zoals &quot;/ipp/print&quot;.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The printer/server lists these suffixes:</source>
-        <translation>De printer/server vermeldt deze achtervoegsels:</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>BusyPage</name>
     <message>
         <source>Print success: </source>
-        <translation>Afdrukken succesvol: </translation>
+        <translation>打印成功:</translation>
     </message>
     <message>
         <source>Print failed: </source>
-        <translation>Afdrukken mislukt: </translation>
+        <translation>打印失败:</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Onbekend</translation>
+        <translation>未知</translation>
     </message>
 </context>
 <context>
     <name>Clipper</name>
     <message>
         <source>Copied to clipboard</source>
-        <translation>Gekopieerd naar het klembord</translation>
+        <translation>已复制到剪切板</translation>
     </message>
 </context>
 <context>
     <name>CoverPage</name>
     <message>
         <source>SeaPrint</source>
-        <translation>SeaPrint</translation>
+        <translation>SeaPrint（海印）</translation>
     </message>
 </context>
 <context>
     <name>DebugPage</name>
     <message>
         <source>Copied to clipboard</source>
-        <translation>Gekopieerd naar het klembord</translation>
+        <translation>已复制到剪切板</translation>
     </message>
 </context>
 <context>
     <name>DetailsPage</name>
     <message>
         <source>Details</source>
-        <translation>Details</translation>
+        <translation>详情</translation>
     </message>
     <message>
         <source>Make and model</source>
-        <translation>Merk en model</translation>
+        <translation>制作及模板</translation>
     </message>
     <message>
         <source>Printer status</source>
-        <translation>Printer status</translation>
+        <translation>打印机状态</translation>
     </message>
     <message>
         <source>IPP versions</source>
-        <translation>IPP versie</translation>
+        <translation>IPP版本</translation>
     </message>
     <message>
         <source>IPP features</source>
-        <translation>IPP functies</translation>
+        <translation>IPP功能</translation>
     </message>
     <message>
         <source>Firmware</source>
-        <translation>Firmware</translation>
+        <translation>固件</translation>
     </message>
     <message>
         <source>Supply status</source>
-        <translation>Drukwerk status</translation>
+        <translation>支持状态</translation>
     </message>
     <message>
         <source>Location</source>
-        <translation>Locatie</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Performance</source>
@@ -226,143 +238,147 @@
     <name>FirstPage</name>
     <message>
         <source>Add by URL</source>
-        <translation>Toevoegen via URL</translation>
+        <translation>通过URL添加</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation>Ververs</translation>
+        <translation>刷新</translation>
     </message>
     <message>
         <source>No file selected</source>
-        <translation>Geen bestand geselecteerd</translation>
+        <translation>没有找到文件</translation>
     </message>
     <message>
         <source>View jobs</source>
-        <translation>Taken bekijken</translation>
+        <translation>查看作业</translation>
     </message>
     <message>
         <source>Remove printer</source>
-        <translation>Printer verwijderen</translation>
+        <translation>移除打印机</translation>
     </message>
     <message>
         <source>Removing printer</source>
-        <translation>Printer wordt verwijderd</translation>
+        <translation>正在移除打印机</translation>
     </message>
     <message>
         <source>About SeaPrint</source>
-        <translation>Over SeaPrint</translation>
+        <translation>关于 SeaPrint（海印）</translation>
     </message>
     <message>
         <source>No compatible formats supported</source>
-        <translation>Geen ondersteunde formaten beschikbaar</translation>
+        <translation>不支持相关格式</translation>
     </message>
     <message>
         <source>Choose file</source>
-        <translation>Bestand kiezen</translation>
+        <translation>选择文件</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation>Instellingen</translation>
+        <translation>设置</translation>
     </message>
     <message>
         <source>Available printers</source>
-        <translation>Beschikbare printers</translation>
+        <translation>可用打印机</translation>
     </message>
     <message>
         <source>Printer details</source>
-        <translation>Printer details</translation>
+        <translation>打印机详情</translation>
     </message>
     <message>
         <source>Not on WiFi</source>
-        <translation>Niet met WiFi netwerk verbonden</translation>
+        <translation>未连接WiFi</translation>
     </message>
     <message>
         <source>This format may not render correctly</source>
-        <translation>Dit formaat wordt mogelijk niet correct weergegeven</translation>
+        <translation>格式可能无法正确呈现</translation>
+    </message>
+    <message>
+        <source>SeaPrint</source>
+        <translation type="unfinished">SeaPrint（海印）</translation>
     </message>
 </context>
 <context>
     <name>IppPrinter</name>
     <message>
         <source>Failed to open file</source>
-        <translation>Bestand openen mislukt</translation>
+        <translation>打开文件失败</translation>
     </message>
     <message>
         <source>Unknown document format</source>
-        <translation>Onbekend documentformaat</translation>
+        <translation>未知文档格式</translation>
     </message>
     <message>
         <source>Unsupported paper size</source>
-        <translation>Niet-ondersteund papierformaat</translation>
+        <translation>纸张大小不受支持</translation>
     </message>
 </context>
 <context>
     <name>JobsPage</name>
     <message>
         <source>Refresh</source>
-        <translation>Ververs</translation>
-    </message>
-    <message>
-        <source>jobs</source>
-        <translation>taken</translation>
-    </message>
-    <message>
-        <source>Untitled job</source>
-        <translation>Naamloze taak</translation>
-    </message>
-    <message>
-        <source>Cancel job</source>
-        <translation>Taak annuleren</translation>
-    </message>
-    <message>
-        <source>Cancelling job</source>
-        <translation>Taak wordt geannuleerd</translation>
+        <translation>刷新</translation>
     </message>
     <message>
         <source>job</source>
-        <translation>taak</translation>
+        <translation>作业</translation>
+    </message>
+    <message>
+        <source>jobs</source>
+        <translation>作业</translation>
+    </message>
+    <message>
+        <source>Untitled job</source>
+        <translation>无标题作业</translation>
+    </message>
+    <message>
+        <source>Cancel job</source>
+        <translation>取消作业</translation>
+    </message>
+    <message>
+        <source>Cancelling job</source>
+        <translation>正在取消作业</translation>
     </message>
     <message>
         <source>Cancelling job failed</source>
-        <translation>Taak annuleren mislukt</translation>
+        <translation>作业失败</translation>
     </message>
 </context>
 <context>
     <name>NagScreen</name>
     <message>
         <source>Dismiss</source>
-        <translation>Afwijzen</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Don&apos;t show again</source>
-        <translation>Niet meer weergeven</translation>
+        <translation>请勿再次显示</translation>
     </message>
     <message>
         <source>Optional dependencies are not installed!</source>
-        <translation>Optionele afhankelijkheden zijn niet geïnstalleerd!</translation>
-    </message>
-    <message>
-        <source>Become root:</source>
-        <translation>Word root:</translation>
+        <translation>未安装可选依赖！</translation>
     </message>
     <message>
         <source>To install, enable developer mode, and open a terminal.</source>
-        <translation>Schakel de ontwikkelaarsmodus in en open een terminal om te installeren.</translation>
+        <translation>你需要开启开发者模式然后打开 terminal 来安装。</translation>
+    </message>
+    <message>
+        <source>Become root:</source>
+        <translation>进入 root 模式：</translation>
     </message>
     <message>
         <source>Install Calligra:</source>
-        <translation>Calligra installeren:</translation>
+        <translation>安装 calligra:</translation>
     </message>
     <message>
         <source>(done)</source>
-        <translation>(voltooid)</translation>
+        <translation>（已完成）</translation>
     </message>
     <message>
         <source>In order to print &quot;office&quot; documents like odt and doc(x) you need &quot;calligraconverter&quot; from the &quot;calligra&quot; package (version 3.2.1+, Sailfish OS 4.2).</source>
-        <translation>Om documenten zoals odt en doc(x) af te drukken, hebt u &quot;calligraconverter&quot; van het &quot;calligra&quot; pakket nodig (versie 3.2.1+, Sailfish OS 4.2).</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>If you are still seeing this message despite installing Calligra, that can be because of SailJail in Sailfish OS 4.x before the compatibility permission in 4.4. You can either upgrade to 4.4 or edit out the SailJail section in /usr/share/applications/harbour-seaprint.desktop</source>
+        <source>If you are still seeing this message despite installing Calligra, that can be because of SailJail in Sailfish OS 4.x before the compatibility permission in 4.4. You can either upgrade to 4.4 or edit out the SailJail section in /usr/share/applications/ru.attah.seaprint.desktop</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -370,134 +386,134 @@
     <name>PrinterPage</name>
     <message>
         <source>Print</source>
-        <translation>Afdrukken</translation>
+        <translation>打印</translation>
     </message>
     <message>
         <source>Sides</source>
-        <translation>Kanten</translation>
+        <translation>面</translation>
     </message>
     <message>
         <source>Copies</source>
-        <translation>Kopieren</translation>
+        <translation>打印份数</translation>
     </message>
     <message>
         <source>Color mode</source>
-        <translation>Kleurmodus</translation>
+        <translation>颜色模式</translation>
     </message>
     <message>
         <source>Quality</source>
-        <translation>Kwaliteit</translation>
+        <translation>质量</translation>
     </message>
     <message>
         <source>Resolution</source>
-        <translation>Resolutie</translation>
+        <translation>分辨率</translation>
     </message>
     <message>
         <source>Print media</source>
-        <translation>Afdrukmedia</translation>
+        <translation>打印媒体</translation>
     </message>
     <message>
         <source>Transfer format</source>
-        <translation>Transfer formaat</translation>
+        <translation>传输格式</translation>
     </message>
     <message>
         <source>Media source</source>
-        <translation>Media bron</translation>
+        <translation>媒体源</translation>
     </message>
     <message>
         <source>Page range</source>
-        <translation>Paginabereik</translation>
+        <translation>页面范围</translation>
     </message>
     <message>
         <source>Collated copies</source>
-        <translation>Gesorteerde exemplaren</translation>
+        <translation>整理后的副本</translation>
     </message>
     <message>
         <source>Default settings for %1 on this printer</source>
-        <translation>Standaardinstellingen voor %1 op deze printer</translation>
+        <translation>此打印机上的 %1 默认设置。</translation>
     </message>
     <message>
         <source>(loaded)</source>
-        <translation>(geladen)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Output bin</source>
-        <translation>Uitvoerbak</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Media type</source>
-        <translation>Mediatype</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Top</source>
-        <translation>Boven</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Bottom</source>
-        <translation>Onder</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Left</source>
-        <translation>Links</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Right</source>
-        <translation>Rechts</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Margins</source>
-        <translation>Marges</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Pages per page</source>
-        <translation>Pagina&quot;s per pagina</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Scaling</source>
-        <translation>Schalen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Media handling</source>
-        <translation>Mediaverwerking</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Reset default settings</source>
-        <translation>Standaardinstellingen herstellen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Save as default settings</source>
-        <translation>Opslaan als standaardinstellingen</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>PrinterWorker</name>
     <message>
         <source>Failed to load image</source>
-        <translation>Afbeelding laden mislukt</translation>
+        <translation>加载图像错误</translation>
     </message>
     <message>
         <source>Unsupported PDF paper size</source>
-        <translation>Niet-ondersteund PDF-papierformaat</translation>
+        <translation>PDF纸张大小不受支持</translation>
     </message>
     <message>
         <source>Unsupported paper size</source>
-        <translation>Niet-ondersteund papierformaat</translation>
+        <translation>纸张大小不受支持</translation>
     </message>
     <message>
         <source>Unsupported resolution (dpi)</source>
-        <translation>Niet-ondersteunde resolutie (dpi)</translation>
+        <translation>分辨率不受支持（dpi）</translation>
     </message>
     <message>
         <source>Failed to open file</source>
-        <translation>Bestand openen mislukt</translation>
+        <translation>打开文件失败</translation>
     </message>
     <message>
         <source>Printing</source>
-        <translation>Afdrukken</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Conversion failed</source>
-        <translation>Conversie mislukt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unknown target format</source>
@@ -505,11 +521,11 @@
     </message>
     <message>
         <source>Preparing</source>
-        <translation>Voorbereiden</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Cannot convert this file format</source>
-        <translation>Kan dit bestandsformaat niet converteren</translation>
+        <translation>无法转换此文件格式</translation>
     </message>
     <message>
         <source>Print error</source>
@@ -528,7 +544,7 @@
     <name>RangeSetting</name>
     <message>
         <source>all</source>
-        <translation>alles</translation>
+        <translation>全部</translation>
     </message>
     <message>
         <source>Advanced</source>
@@ -547,38 +563,38 @@
     <name>Setting</name>
     <message>
         <source>Reset</source>
-        <translation>Herstellen</translation>
+        <translation>重置</translation>
     </message>
 </context>
 <context>
     <name>SettingsPage</name>
     <message>
         <source>Show nag-screen</source>
-        <translation>Meldingsscherm tonen</translation>
+        <translation>显示 nag-screen</translation>
     </message>
     <message>
         <source>Consider additional formats</source>
-        <translation>Aanvullende formaten overwegen</translation>
+        <translation>考虑其它格式</translation>
     </message>
     <message>
         <source>Some printers support more formats than they advertise correctly. However, additional formats can be inferred from other attributes. Mainly relevant for Postscript-compatible printers that also support PDF.</source>
-        <translation>Sommige printers ondersteunen meer formaten dan ze correct adverteren. Er kunnen echter aanvullende formaten worden afgeleid uit andere attributen. Vooral relevant voor Postscript ondersteunende printers die ook PDF ondersteunen.</translation>
+        <translation>有些打印机支持的格式比他们宣传的要多。 可以从其他属性中推断出其它格式。 主要与支持PDF的Postscript—兼容打印机相关。</translation>
     </message>
     <message>
         <source>Display the warning page about optional dependencies not being installed, if they are not installed.</source>
-        <translation>Waarschuwingspagina weergeven over optionele afhankelijkheden die niet worden geïnstalleerd, als ze niet zijn geïnstalleerd.</translation>
+        <translation>如果没有安装可选的依赖程序，则显示警告页面。</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation>Instellingen</translation>
+        <translation>设置</translation>
     </message>
     <message>
         <source>Ignore SSL errors</source>
-        <translation>Negeer SSL-fouten</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>In order to work with self-signed certificates of printers and CUPS instances, SSL errors needs to be ignored.</source>
-        <translation>Om te kunnen werken met zelfondertekende certificaten van printers en CUPS-instanties, moeten SSL-fouten worden genegeerd.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Enable debug log</source>
@@ -601,25 +617,21 @@
     <name>SupplyItem</name>
     <message>
         <source>Unknown type</source>
-        <translation>Onbekend type</translation>
+        <translation>未知类型</translation>
     </message>
     <message>
         <source>Unnamed supply</source>
-        <translation>Naamloos drukwerk</translation>
+        <translation>未命名供给</translation>
     </message>
 </context>
 <context>
-    <name>harbour-seaprint</name>
+    <name>ru.attah.seaprint</name>
     <message>
-        <source>images</source>
-        <translation>afbeeldingen</translation>
+        <source>Unsupported document format</source>
+        <translation type="unfinished">不受支持的格式</translation>
     </message>
     <message>
-        <source>documents</source>
-        <translation>documenten</translation>
-    </message>
-    <message>
-        <source>plaintext</source>
+        <source>New file selected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -627,12 +639,16 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Unsupported document format</source>
-        <translation>Niet-ondersteunde documentindeling</translation>
+        <source>images</source>
+        <translation type="unfinished">图像</translation>
     </message>
     <message>
-        <source>New file selected</source>
+        <source>plaintext</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>documents</source>
+        <translation type="unfinished">文档</translation>
     </message>
 </context>
 <context>
@@ -5043,7 +5059,7 @@
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">Onbekend</translation>
+        <translation type="unfinished">未知</translation>
     </message>
     <message>
         <source>Wrapper Added</source>
@@ -5514,7 +5530,7 @@
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">Onbekend</translation>
+        <translation type="unfinished">未知</translation>
     </message>
     <message>
         <source>Plaintext</source>

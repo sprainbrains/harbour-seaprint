@@ -91,6 +91,18 @@
         <source>SeaPrint is free software released under the GNU General Public License (GPL), version 3 or later.</source>
         <translation>SeaPrint est un logiciel libre distribué sous Licence GNU General Public (GPL) version 3 ou ultérieure.</translation>
     </message>
+    <message>
+        <source> SeaPrint</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SeaPrint v</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Russian</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AddPrinterDialog</name>
@@ -280,6 +292,10 @@
         <source>This format may not render correctly</source>
         <translation>Ce format peut ne pas être rendu correctement</translation>
     </message>
+    <message>
+        <source>SeaPrint</source>
+        <translation type="unfinished">SeaPrint</translation>
+    </message>
 </context>
 <context>
     <name>IppPrinter</name>
@@ -362,7 +378,7 @@
         <translation>Afin d&apos;imprimer les documents &apos;office&apos; (.odt et .doc(x)), vous avez besoin de &quot;calligraconverter&quot; du paquet &quot;calligra&quot; (version 3.2.1+, Sailfish OS 4.2).</translation>
     </message>
     <message>
-        <source>If you are still seeing this message despite installing Calligra, that can be because of SailJail in Sailfish OS 4.x before the compatibility permission in 4.4. You can either upgrade to 4.4 or edit out the SailJail section in /usr/share/applications/harbour-seaprint.desktop</source>
+        <source>If you are still seeing this message despite installing Calligra, that can be because of SailJail in Sailfish OS 4.x before the compatibility permission in 4.4. You can either upgrade to 4.4 or edit out the SailJail section in /usr/share/applications/ru.attah.seaprint.desktop</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -610,17 +626,13 @@ sur cette imprimante</translation>
     </message>
 </context>
 <context>
-    <name>harbour-seaprint</name>
+    <name>ru.attah.seaprint</name>
     <message>
-        <source>images</source>
-        <translation>images</translation>
+        <source>Unsupported document format</source>
+        <translation type="unfinished">Format de document non supporté</translation>
     </message>
     <message>
-        <source>documents</source>
-        <translation>documents</translation>
-    </message>
-    <message>
-        <source>plaintext</source>
+        <source>New file selected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -628,12 +640,16 @@ sur cette imprimante</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Unsupported document format</source>
-        <translation>Format de document non supporté</translation>
+        <source>images</source>
+        <translation type="unfinished">images</translation>
     </message>
     <message>
-        <source>New file selected</source>
+        <source>plaintext</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>documents</source>
+        <translation type="unfinished">documents</translation>
     </message>
 </context>
 <context>

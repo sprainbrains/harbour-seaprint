@@ -62,7 +62,7 @@ Page {
     property bool nagged: false
 
     onStatusChanged: {
-        if(status==PageStatus.Active && !nagged && nagScreenSetting.value != nagScreenSetting.expectedValue)
+        if(status==PageStatus.Active && !nagged && nagScreenSetting.value !== nagScreenSetting.expectedValue)
         {
             if(expectCalligra && !ConvertChecker.calligra)
             {
@@ -118,7 +118,7 @@ Page {
 
             header: PageHeader {
                 id: pageHeader
-                title: "SeaPrint"
+                title: qsTr("SeaPrint")
                 description: qsTr("Available printers")
             }
 
@@ -133,9 +133,10 @@ Page {
 
                 visible: Object.keys(printer.attrs).length !== 0
 
-                property string name: Utils.unknownForEmptyString(printer.attrs["printer-name"].value)
+
+                property string name: Utils.unknownForEmptyString(printer.attrs["printer-name"].value,  Utils.existsOrEmpty("printer-dns-sd-name",printer), printer.attrs["printer-info"].value)
                 property var supported_formats: Utils.supported_formats(printer, considerAdditionalFormatsSetting.value)
-                property bool canPrint: supported_formats.mimetypes.indexOf(appWin.selectedFileType) != -1
+                property bool canPrint: supported_formats.mimetypes.indexOf(appWin.selectedFileType) !== -1
 
                 Connections {
                     target: printer
@@ -191,7 +192,7 @@ Page {
                         return;
                     }
                     debugCountReset.restart();
-                    if(appWin.selectedFile == "")
+                    if(appWin.selectedFile === "")
                     {
                         noFileSelected();
                     }
@@ -242,15 +243,15 @@ Page {
 
                     Label {
                         id: name_label
-                        color: canPrint || appWin.selectedFile == "" ? Theme.primaryColor : Theme.secondaryColor
+                        color: canPrint || appWin.selectedFile === "" ? Theme.primaryColor : Theme.secondaryColor
                         text: name
                     }
 
                     Label {
                         id: mm_label
-                        color: canPrint || appWin.selectedFile == "" ? Theme.primaryColor : Theme.secondaryColor
+                        color: canPrint || appWin.selectedFile === "" ? Theme.primaryColor : Theme.secondaryColor
                         font.pixelSize: Theme.fontSizeExtraSmall
-                        text: Utils.unknownForEmptyString(printer.attrs["printer-make-and-model"].value)
+                        text: Utils.unknownForEmptyString(printer.attrs["printer-make-and-model"].value, Utils.existsOrEmpty("printer-dns-sd-name",printer), printer.attrs["printer-info"].value)
                               + (Utils.existsAndNotEmpty("printer-location", printer)  ? "  •  "+printer.attrs["printer-location"].value : "")
                     }
 
@@ -396,7 +397,7 @@ Page {
 
                 horizontalAlignment: contentWidth > width ? Text.AlignRight : Text.AlignHCenter
                 truncationMode: TruncationMode.Fade
-                text: appWin.selectedFile != "" ? appWin.selectedFile : qsTr("No file selected")
+                text: appWin.selectedFile !== "" ? appWin.selectedFile : qsTr("No file selected")
 
                 SequentialAnimation {
                     id: noFileSelectedAnimation
@@ -441,7 +442,7 @@ Page {
 
                 Component.onCompleted: {
                     var thingy = Qt.createComponent(ConvertChecker.calligra ? "../components/DocumentFilterOffice.notqml" : "../components/DocumentFilter.notqml");
-                    if (thingy.status == Component.Ready) {
+                    if (thingy.status === Component.Ready) {
                         _contentModel.contentFilter = thingy.createObject(this);
                     }
                 }
