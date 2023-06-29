@@ -367,15 +367,15 @@
     </message>
     <message>
         <source>In order to print &quot;office&quot; documents like odt and doc(x) you need &quot;calligraconverter&quot; from the &quot;calligra&quot; package (version 3.2.1+, Sailfish OS 4.2).</source>
-        <translation>Для печати &quot;офисных&quot; документов, таких как odt и doc(x), необходим &quot;calligraconverter&quot; из пакета &quot;calligra&quot; (версия 3.2.1+, Aurora OS 4.x).</translation>
+        <translation>Для печати &quot;офисных&quot; документов, таких как odt и doc(x), необходим &quot;soffice&quot; из пакета &quot;libreoffice&quot; (вAurora OS 4.x, начиная с версии 4.0.2).</translation>
     </message>
     <message>
         <source>Install Calligra:</source>
-        <translation>Установите Calligra:</translation>
+        <translation>Проверьте установку soffice:</translation>
     </message>
     <message>
         <source>If you are still seeing this message despite installing Calligra, that can be because of SailJail in Sailfish OS 4.x before the compatibility permission in 4.4. You can either upgrade to 4.4 or edit out the SailJail section in /usr/share/applications/ru.attah.seaprint.desktop</source>
-        <translation>Если вы все еще видите это сообщение, несмотря на установку Calligra, это может быть связано с изоляцией приложения в Aurora OS 4.x. Вы можете отредактировать раздел [X-Application] в /usr/share/applications/ru.attah.seaprint.desktop</translation>
+        <translation>Если вы все еще видите это сообщение, несмотря на наличие soffice, это может быть связано с изоляцией пользовательского окружения и приложения в Aurora OS 4.x. Вы можете открыть терминал и принудительно вызвать утилиту: ./usr/lib/libreoffice/program/soffice.bin -h . Вам должно вывестись описание параметров уилиты. После этого перезагрузите прилоение и оно должно увидеть установленные пакет в системе. Если это не помогло, то следует вручную пойти в папку с soffice и запустить её с флагом -h оттуда.</translation>
     </message>
     <message>
         <source>Optional dependencies are not installed!</source>
