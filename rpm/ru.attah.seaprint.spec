@@ -2,7 +2,7 @@ Name:       ru.attah.seaprint
 
 Summary:    SeaPrint
 Version:    1.3
-Release:    3
+Release:    4
 Group:      Qt/Qt
 License:    GPLv3
 URL:        https://github.com/attah/harbour-seaprint
